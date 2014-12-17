@@ -6,8 +6,7 @@
 
 [data-icon]:before { content: attr(data-icon); }
 
-[data-icon]:before,
-<%= glyph_selectors %> {
+[class^="icon-"], [class*=" icon-"] {
 <%= glyph_properties %>
 }
 

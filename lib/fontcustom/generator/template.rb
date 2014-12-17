@@ -152,18 +152,15 @@ module Fontcustom
       end
 
       def glyph_properties
-%Q|  display: inline-block;
-  font-family: "#{font_name}";
+%Q|  font-family: "#{font_name}";
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
-  line-height: 1;
-  text-decoration: inherit;
-  text-rendering: optimizeLegibility;
   text-transform: none;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
   -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;|
+  -moz-osx-font-smoothing: grayscale;|
       end
 
       def glyphs
