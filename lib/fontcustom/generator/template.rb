@@ -113,6 +113,11 @@ module Fontcustom
         @options[:font_name]
       end
 
+      def create_time
+        out = Time.new
+        out.strftime("%Y-%m-%d %H:%M:%S")
+      end
+
       def font_face(style = :normal)
         case style
         when :preprocessor

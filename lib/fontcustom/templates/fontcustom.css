@@ -10,4 +10,8 @@
 <%= glyph_properties %>
 }
 
+[class^="icon-"] *, [class*=" icon-"] *{
+  font-family: sans-serif;
+}
+
 <%= glyphs %>
